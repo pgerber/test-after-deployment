@@ -4,5 +4,5 @@ node_js:
 services:
   - docker
 script:
-  - yarn run build --release
+  - yarn build --release
   - docker build -t toccoag/test-after-deployment .
