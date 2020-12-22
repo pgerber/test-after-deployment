@@ -1,7 +1,0 @@
-language: node_js
-node_js:
-  - 'stable'
-services:
-  - docker
-script:
-  - docker build -t toccoag/test-after-deployment .
